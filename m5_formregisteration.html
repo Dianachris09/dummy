@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>registeration Form</title>
+</head>
+<body style="background-color: #95caee;align:left";>
+    <div style="max-width: 600px;background-color:rgb(230, 227, 227); margin: 0 auto;padding:10px">
+    <h2><center>Registration Form</center></h2>
+    <form action="./m5_formlogin.html" method="post">
+        <label for="name" style="width: 90%";>Name:</label>
+        <input type="text" id="name" name="name" required style="width: 50%";><br><br>
+
+        <label for="fathername">Father's Name:</label>
+        <input type="text" id="fathername" name="fathername" required style="width: 50%";><br><br>
+
+        <label for="postaladdress">Postal Address:</label>
+        <textarea id="postaladdress" name="postaladdress" required style="width: 50%";></textarea><br><br>
+
+        <label for="personaladdress">Personal Address:</label>
+        <textarea id="personaladdress" name="personaladdress" required style="width: 50%";></textarea><br><br>
+
+        <label for="sex">Sex:</label>
+        <input type="radio" id="male" name="sex" value="male" required >
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="sex" value="female" required>
+        <label for="female">Female</label><br><br>
+
+        <label for="city">City:</label>
+        <select id="city" name="city" required style="width: 50%";>
+            <option value="select" default>Select</option>
+            <option value="Velachery">Velachery</option>
+            <option value="Fairlands">Fairlands</option>
+            <option value="Madipakkam">Madipakkam</option>
+            <option value="Gandhi Nagar">Gandhi Nagar</option>
+        </select><br><br>
+
+        <label for="course">Course:</label>
+        <select id="course" name="course" required style="width: 50%";>
+            <option value="select">Select</option>
+            <option value="engineering">Engineering</option>
+            <option value="medicine">Medicine</option>
+            <option value="business">Business</option>
+            <option value="arts">Arts</option>
+        </select><br><br>
+
+        <label for="district">District:</label>
+        <select id="district" name="district" required style="width: 50%";>
+            <option value="select" default>Select</option>
+            <option value="Chennai">Chennai</option>
+            <option value="Kanchipuram">Kanchipuram</option>
+            <option value="Salem">Salem</option>
+            <option value="Coimbatore">Coimbatore</option>
+        </select><br><br>
+
+        
+        <label for="state">State:</label>
+        <select id="state" name="state" required style="width: 50%";>
+            <option value="select">Select</option>
+            <option value="TamilNadu">TamilNadu</option>
+            <option value="Karnataka">Karnataka</option>
+            <option value="Kerala">Kerala</option>
+            <option value="Telegana">Telegana</option>
+        </select><br><br>
+
+        <label for="pincode">Pincode:</label>
+        <input type="text" id="pincode" name="pincode" required style="width: 50%";><br><br>
+
+        <label for="email">EmailId</label>
+        <input type="email" id="email" name="email" required style="width: 50%";><br><br>
+
+        <label for="dob">DOB</label>
+        <input type="date" id="dob" name="dob" required><br><br>
+
+        <label for="mobile">Mobile Number:</label>
+        <input type="tel" id="mobile" name="mobile" required style="width: 50%";><br><br>
+
+       <center> <button type="reset">Reset</button>
+        <button type="submit">Submit</button></center>
+    </form>
+</div>
+</body>
+</html>
